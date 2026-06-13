@@ -25,6 +25,20 @@ Create an interactive dashboard that takes a CSV dataset and dynamically display
 
 ---
 
+## Project Structure
+
+```text
+Task4-CSVtoDashboard/
+├── images/
+├── sample_data/
+├── app.py
+├── README.md
+├── requirements.txt
+└── Task4_Report.pdf
+```
+
+---
+
 ## Use Cases
 
 - Rapid exploratory data analysis
