@@ -25,6 +25,15 @@ Create an interactive dashboard that takes a CSV dataset and dynamically display
 
 ---
 
+## Use Cases
+
+- Rapid exploratory data analysis
+- Teaching and demonstrations
+- Dataset profiling
+- Quick visualization without coding
+
+---
+
 ## Technical Stack
 
 - **Frontend & App Logic:** Streamlit
@@ -50,9 +59,14 @@ streamlit run app.py
 
 ## Visual Demonstration
 
-*The dynamic dashboard loaded with the Titanic Sample Dataset, displaying a Scatter Plot of Age vs Fare colored by Survival status.*
+### Empty State
+![Empty Dashboard](images/screenshot_empty.png)
 
+### Loaded Dashboard
+*The dynamic dashboard loaded with the Titanic Sample Dataset, displaying a Scatter Plot of Age vs Fare colored by Survival status.*
 ![Dynamic CSV Dashboard](images/screenshot.png)
 
 ---
-*Developed by Hit Goyani*
+*Built by Hit Goyani*  
+*Synent Technologies Data Science Internship*  
+*Candidate ID: SYN/M2/IP1050*

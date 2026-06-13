@@ -66,7 +66,7 @@ with st.sidebar:
     
     if data_source == "Upload CSV":
         uploaded_file = st.file_uploader("Upload your CSV file", type=['csv'])
-        if uploaded_file is not window:
+        if uploaded_file is not None:
             try:
                 df = pd.read_csv(uploaded_file)
                 file_name = uploaded_file.name
